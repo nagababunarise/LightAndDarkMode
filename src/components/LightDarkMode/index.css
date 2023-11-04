@@ -1,0 +1,39 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+}
+.dark {
+  color: white;
+  background-color: black;
+  height: 30vh;
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 300px;
+}
+.light {
+  color: black;
+  background-color: white;
+  height: 30vh;
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 300px;
+  border-style: solid;
+  border-width: 1px;
+}
